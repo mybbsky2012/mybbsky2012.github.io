@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+[![Build x86/64 openwrt](https://github.com/mybbsky2012/OpenWrt-PC-Pi/actions/workflows/x86-64.yml/badge.svg?branch=main)](https://github.com/mybbsky2012/OpenWrt-PC-Pi/actions/workflows/x86-64.yml)[![Build bcm27xx/bcm2711 openwrt](https://github.com/mybbsky2012/OpenWrt-PC-Pi/actions/workflows/bcm27xx-bcm2711.yml/badge.svg?branch=main)](https://github.com/mybbsky2012/OpenWrt-PC-Pi/actions/workflows/bcm27xx-bcm2711.yml)
+## 项目介绍
 
-You can use the [editor on GitHub](https://github.com/mybbsky2012/mybbsky2012.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+1. 提供适配于 树莓派全系、Rockchip 平台、ipq40xx 平台以及 x86 平台设备的 OpenWrt 固件
+2. 包含丰富的 OpenWrt 原版 LuCI 插件及社区 LuCI 插件
+3. 固件跟随源码更新自动编译，确保获得最新体验
+4. 预配置本地 kmod 软件源，远离 kmod 依赖冲突
+5. 集成绝大多数有线、无线、3G / 4G 网卡驱动，无需额外安装
+6. 预置最新版 Clash 核心、预置 oh-my-zsh，最大程度减少配置成本
+7. 提供全格式固件 / 文件 (ext4/squashfs/ubi/initramfs/rootfs)
+8. 对于高级用户，提供完整的固件/软件包构建工具 (imagebuilder / sdk / toolchain)
+9. 如果你想捐助此项目，请移步 [FUNDING.md](https://github.com/SuLingGG/OpenWrt-Mini/blob/main/FUNDING.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 文档
 
-### Markdown
+固件 下载安装 / 初始设置 / 软件包安装说明 等信息请看文档:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<https://doc.openwrt.cc/2-OpenWrt-Rpi>
 
-```markdown
-Syntax highlighted code block
+## 固件预览
 
-# Header 1
-## Header 2
-### Header 3
+### 主界面:
 
-- Bulleted
-- List
+![主界面](https://ae05.alicdn.com/kf/H6814822fa93d4246837bea1edcec6d23j.png)
 
-1. Numbered
-2. List
+### 内置功能:
 
-**Bold** and _Italic_ and `Code` text
+(建议保存至本地放大查看)
 
-[Link](url) and ![Image](src)
-```
+![内置功能](https://ae02.alicdn.com/kf/Hf29f2d94339d4188bbdde7f3131b500af.png)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## 鸣谢
 
-### Jekyll Themes
+感谢以下项目 / 厂商:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mybbsky2012/mybbsky2012.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| Github Actions                                        | OpenWrt 源码项目                                             | OpenWrt 构建项目                                             | Action 项目                                                  | 云服务厂商                               |
+| ----------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------- |
+| [Github Actions](https://github.com/features/actions) | [openwrt/openwrt](https://github.com/openwrt/openwrt/)       | [openwrt/buildbot](https://git.openwrt.org/?p=buildbot.git;a=summary) | [ncipollo/release-action](https://github.com/ncipollo/release-action) | [Acloud](https://acloud.net/)            |
+|                                                       | [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)    | [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) | [mknejp/delete-release-assets](https://github.com/mknejp/delete-release-assets) | [Cloudflare](https://www.cloudflare.com) |
+|                                                       | [immortalwrt/immortalwrt](https://github.com/immortalwrt/immortalwrt) | [immortalwrt/opde](https://github.com/immortalwrt/opde)      | [GitRML/delete-workflow-runs](https://github.com/GitRML/delete-workflow-runs) | [BackBlaze](https://www.backblaze.com/)  |
+|                                                       |                                                              | [aparcar/openwrt](https://github.com/aparcar/openwrt)        | [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) | [HostHatch](https://hosthatch.com/)      |
+|                                                       |                                                              | [klever1988/nanopi-openwrt](https://github.com/klever1988/nanopi-openwrt) | [easimon/maximize-build-space](https://github.com/easimon/maximize-build-space) |                                          |
