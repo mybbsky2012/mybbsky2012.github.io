@@ -1,5 +1,5 @@
 title: OpenWrt自编译版
 description: OpenWrt x86_64 & Rpi4 .
-show_downloads: true
+show_downloads: False
 google_analytics:
 theme: jekyll-theme-architect
