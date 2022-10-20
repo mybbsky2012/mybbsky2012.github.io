@@ -1,1 +1,5 @@
-theme: minima 
+title: OpenWrt 自编译版本-每日更新
+description: OpenWrt x86_64 & Rpi4 .
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-architect
