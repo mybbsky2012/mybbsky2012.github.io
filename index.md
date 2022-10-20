@@ -17,6 +17,11 @@
 
 <https://doc.openwrt.cc/2-OpenWrt-Rpi>
 
+### 最新版本
+
+<https://github.com/mybbsky2012/OpenWrt-PC-Pi/releases>
+
+
 ## 固件预览
 
 ### 主界面:
